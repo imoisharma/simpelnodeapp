@@ -5,4 +5,4 @@ FROM alpine:3.10
 COPY entrypoint.sh /enterypoint.sh
 
 # code file to execute when the docker container starts up
-ENTRYPOINT [ "/entrypoint.sh" ]
+ENTRYPOINT ["/entrypoint.sh"]
